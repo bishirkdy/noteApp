@@ -159,7 +159,8 @@ const ViewNote = ({ data, onClick, setNotes }) => {
                 </p>{" "}
                 {d.updatedAt && (
                   <p className="bg-white p-1 rounded-lg">
-                    Edited : {" "}{new Date(d.updatedAt).toLocaleString("en-IN", {
+                    Edited :{" "}
+                    {new Date(d.updatedAt).toLocaleString("en-IN", {
                       dateStyle: "short",
                       timeStyle: "short",
                     })}

@@ -59,7 +59,7 @@ const AddNote = ({ setNotes }) => {
     });
   }
   return (
-    <div className="flex flex-col items-center w-full px-6">
+    <div className="flex flex-col pb-8 items-center w-full px-6">
       <form
         onSubmit={submitHandler}
         className="w-full max-w-lg bg-white rounded-2xl shadow-2xl p-6 flex flex-col gap-5"
